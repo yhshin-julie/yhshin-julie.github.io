@@ -78,9 +78,9 @@ categories: java
 </select> 
 ```
 
-1) queryId는 Service에서 호출하는 명칭과 동일하게 구성되어야 한다. 
-2) parameterType은 Map 으로 사용 : Service단에서 List 형태를 for문을 사용해서 Map형태로 꺼냈기 때문에.
-3) resultType은 EgovMap을 상속받은 YhshinMap을 사용(sql-mapper-config.xml에 typeAlias로 지정해야 가능함)
+1) queryId는 Service에서 호출하는 명칭과 동일하게 구성되어야 한다.   
+2) parameterType은 Map 으로 사용 : Service단에서 List 형태를 for문을 사용해서 Map형태로 꺼냈기 때문에.  
+3) resultType은 EgovMap을 상속받은 YhshinMap을 사용(sql-mapper-config.xml에 typeAlias로 지정해야 가능함)  
 
 
 ### insert/update/delete 문 
