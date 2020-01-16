@@ -176,13 +176,13 @@ if test="조건" 문이 true 이면 태그 안의 쿼리문이 실행된다.
          
          <choose>
                   <when test="programCode != null and programCode == '01'
-                         AND PROGRAM_ID = 1
+                         AND PROGRAM_ID = '1'
                   </when>
                   <when test="programCode != null and programCode == '02'
-                         AND PROGRAM_ID = 2
+                         AND PROGRAM_ID = '2'
                   </when>
                   <when test="programCode != null and programCode == '03'
-                         AND PROGRAM_ID = 3
+                         AND PROGRAM_ID = '3'
                   </when>
                   <otherwise>
                          AND PROGRAM_ID = 99
