@@ -7,7 +7,7 @@ categories: java
 ### SqlMap
 
 ### context-mybatis.xml
-- **datasource** 관련된 내용과 sqlSessionFactory, sqlSessionTemplate 에 관한 설정을 한다.
+- datasource 관련된 내용과 sqlSessionFactory, sqlSessionTemplate 에 관한 설정을 한다.
 - 실제 쿼리가 담겨있는 xml파일의 위치와 typeAlias 로 설정된 model 클래스 정보가 들어있다.
 
 ```xml
@@ -190,3 +190,9 @@ if test="조건" 문이 true 이면 태그 안의 쿼리문이 실행된다.
          </choose>
 </select>
 ```
+
+### CLOB/BLOB 데이터 처리
+- SELECT 문에서는 프로젝트 내의 Map에서 Byte[]형태로 자동 변경되었음._(어떤 방법인지 알아봐야겠다.)_
+- INSERT, UPDATE문에서는 JdbcType을 설정해주어야 한다.
+
+`#{clobDesc:CLOB}` 또는 `#{blobDesc:BLOB}`
