@@ -185,7 +185,7 @@ if test="조건" 문이 true 이면 태그 안의 쿼리문이 실행된다.
                          AND PROGRAM_ID = '3'
                   </when>
                   <otherwise>
-                         AND PROGRAM_ID = 99
+                         AND PROGRAM_ID = '99'
                   </otherwise>
          </choose>
 </select>
