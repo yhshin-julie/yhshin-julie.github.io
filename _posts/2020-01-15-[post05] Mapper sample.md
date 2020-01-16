@@ -7,7 +7,7 @@ categories: java
 ### SqlMap
 
 ### context-mybatis.xml
-- datasource 관련된 내용과 sqlSessionFactory, sqlSessionTemplate 에 관한 설정을 한다.
+- **datasource** 관련된 내용과 sqlSessionFactory, sqlSessionTemplate 에 관한 설정을 한다.
 - 실제 쿼리가 담겨있는 xml파일의 위치와 typeAlias 로 설정된 model 클래스 정보가 들어있다.
 
 ```xml
