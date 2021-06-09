@@ -68,7 +68,7 @@ this.fnSelectList = function()
 }
 ```
 
-1. 글로벌 Transactioin funtion 호출 
+#### 글로벌 Transactioin funtion 호출 
 - strSvcId : 트랜잭션을 구분하기 위한 ID값
 - strSvcUrl : 트랜잭션을 요청 할 주소 
 - inData : 입력값으로 보낼 데이터셋 ID (실제 dataset 명칭)
