@@ -15,8 +15,8 @@ categories: java
 
 #### 자주 사용하는 cmmnFunction (Nexacro 공통 라이브러리)
 - comp.js : 콤포넌트와 관련되는 CommonFuntion 파일 
-- excel.js : 엑셀 import/export 와 관련되는 CommonFuntion 파일 
-- util.js : String, Dataset, Date 와 관련되는 CommonFuntion 파일 
++ excel.js : 엑셀 import/export 와 관련되는 CommonFuntion 파일 
+* util.js : String, Dataset, Date 와 관련되는 CommonFuntion 파일 
 - frame.js : 프레임과 관련되는 CommonFuntion 파일 
 - grid.js : 그리드와 관련되는 CommonFuntion 파일 
 - popup.js : 팝업과 관련되는 CommonFuntion 파일 
