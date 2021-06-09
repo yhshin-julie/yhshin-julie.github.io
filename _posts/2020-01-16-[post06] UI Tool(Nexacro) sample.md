@@ -64,7 +64,7 @@ this.fnSelectList = function()
   var isAsync     = true;           //동기 OR 비동기 설정 
   
   //Service call 
-  ①this.gfnTransaction(strSvcId, strSvcUrl, inData, outData, callBackFnc, isAsync);
+  **①** this.gfnTransaction(strSvcId, strSvcUrl, inData, outData, callBackFnc, isAsync);
 }
 ```
 
