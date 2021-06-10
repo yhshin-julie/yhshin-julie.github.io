@@ -5,7 +5,7 @@ categories: dev-spring
 published: false
 ---
 
-### Controller 선언부 
+## Controller 선언부 
 
 ```java
 ①
@@ -54,7 +54,7 @@ public class PgManageController {
 9) logger 생성 : log4j 의 logger 클래스를 생성한다.         
 10) Service 클래스 선언언 : 비즈니스 로직을 처리하는 Service Class 를 선언한다. 
 
-#### 조회 메서드 
+## 조회 메서드 
 
 ```java
 /**
@@ -86,7 +86,7 @@ public void selectPgList(Map param, Model result) throws BusinessException {
 5)결과값 저장 : Model 객체에 클라이언트로 전달 할 값을 key=value 형식으로 저장한다. (일반적인 Object나 String으로 데이터 전달도 가)능
 
 
-#### 저장 메서드 
+## 저장 메서드 
 
 ```java
 /**
