@@ -1,7 +1,7 @@
 ---
 title: "[post03] Controller sample"
 date: 2020-01-13 16:40:00-0400
-categories: java
+categories: dev-spring
 ---
 
 ### Controller 선언부 
