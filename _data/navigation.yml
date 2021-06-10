@@ -6,3 +6,5 @@ main:
     url: /about/
   - title: "Categoty"
     url: /categories/
+  - title: "etc"
+    url: /categories/etc    
