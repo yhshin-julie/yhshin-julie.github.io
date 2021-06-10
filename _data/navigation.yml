@@ -4,4 +4,5 @@ main:
     url: https://yhshin-julie.github.io/
   - title: "About"
     url: /about/
-  - title: "About"
+  - title: "Categoty"
+    url: /categories/
