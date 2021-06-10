@@ -1,7 +1,7 @@
 ---
 title: "[post04] Service sample"
 date: 2020-01-13 16:40:00-0400
-categories: java
+categories: dev-spring
 ---
 
 ### Service 선언부 
