@@ -2,6 +2,7 @@
 title: "Page about"
 permalink: /about/
 layout: single
+categories: etc
 ---
 
 ### yhshin-julie.github.io 블로그
