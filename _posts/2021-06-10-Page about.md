@@ -1,5 +1,5 @@
 ---
-title: "yhshin-julie's 블로그 설명서"
+title: "Page about"
 permalink: /about/
 layout: single
 ---
