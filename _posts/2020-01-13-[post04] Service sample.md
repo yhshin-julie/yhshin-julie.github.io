@@ -2,10 +2,11 @@
 title: "[post04] Service sample"
 date: 2020-01-13 16:40:00-0400
 categories: dev-spring
-published: false
+toc: true
+toc_sticky: true
 ---
 
-### Service 선언부 
+## Service 선언부 
 
 ```java  
 ①
@@ -57,7 +58,7 @@ public class pgManageService extends EgovAbstractServiceImple {
 9) logger 생성 : log4j의 logger 클래스를 생성한다.                                   
 10) CommonMapper Class 선언 : 데이터 처리를 담당하는 CommonMapper Class를 선언한다.  
 
-### 조회 메서드   
+## 조회 메서드   
 
 ```java
 /**
@@ -82,7 +83,7 @@ public List selectPgList(Map param) {
     - 첫번째 파라미터 값 : SqlMap의namespace와 queryId를 사용.                                                       
     - 두번째 파라미터 값 : 검색조건 값을 담고 있는 Map을 전달한다.                                                   
     
-### 저장 메서드 
+## 저장 메서드 
 
 ```java
 /**
