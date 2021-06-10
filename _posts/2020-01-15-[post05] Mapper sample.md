@@ -2,12 +2,13 @@
 title: "[post05] Mapper sample"
 date: 2020-01-15 16:00:00 -0400
 categories: dev-spring
-published: false
+toc: true
+toc_sticky: true
 ---
 
 ### SqlMap
 
-### context-mybatis.xml
+## context-mybatis.xml
 - datasource 관련된 내용과 sqlSessionFactory, sqlSessionTemplate 에 관한 설정을 한다.
 - 실제 쿼리가 담겨있는 xml파일의 위치와 typeAlias 로 설정된 model 클래스 정보가 들어있다.
 
@@ -35,7 +36,7 @@ published: false
 
 1) 쿼리 매핑을 하기 위 XML파일을 검색하여 해서 자동으로 추가하도록 설정하는 역할.
 
-### sql-mapper-config.xml
+## sql-mapper-config.xml
 
 ```xml
 <configuration>
@@ -57,7 +58,7 @@ published: false
 
 1) resultType으로 사용하기 위한 Map의 alias 지정 작업.
 
-### 선언부
+# 선언부
 
 ```xml
 <?xml sersion="1.0" encoding="UTF-8"?>
@@ -70,7 +71,7 @@ published: false
 
 1) namespace 선언 : 프로젝트 내의 명명규칙에 따라 구성한다.
 
-### select 문
+## select 문
 
 ```xml
 <select ①id="selectPgList"  ②parameterType="Map"  ③resultType="yhshinMap" >
@@ -84,7 +85,7 @@ published: false
 3) resultType은 EgovMap을 상속받은 YhshinMap을 사용(sql-mapper-config.xml에 typeAlias로 지정해야 가능함)  
 
 
-### insert/update/delete 문 
+## insert/update/delete 문 
 ```xml
 <insert id="insertPgManage" parameterType="java.util.Map">
        INSERT 
@@ -115,7 +116,7 @@ published: false
 </delete>
 ```
 
-### Sql Batch 처리(insert/update/delete Batch 문)
+## Sql Batch 처리(insert/update/delete Batch 문)
 ```xml
 <insert id="insertPgBatch" parameterType="java.util.List">
    ①<foreach collection="List" item="item" index="index" separator=" " open="INSERT ALL" close="SELECT * FROM DUAL">
@@ -141,7 +142,7 @@ published: false
   - close : 해당 구문이 종료될 때 삽일 할 문자열
   - separator : 반복되는 사이에 출력 할 문자열
 
-### if 제어문
+## if 제어문
 if test="조건" 문이 true 이면 태그 안의 쿼리문이 실행된다.  
   
 ```xml
@@ -163,7 +164,7 @@ if test="조건" 문이 true 이면 태그 안의 쿼리문이 실행된다.
 </select>
 ```
 
-### choose 제어문 
+## choose 제어문 
   - when 태그와 otherwise 태그를 제공
   - when 태그 : <when 변수명 == "조건"> 이 true일때 실행
    (해당 조건의 쿼리문이 실행되면, 다른 <choose> 문이나 <otherwise>문은 실행되지 않음)
@@ -192,7 +193,7 @@ if test="조건" 문이 true 이면 태그 안의 쿼리문이 실행된다.
 </select>
 ```
 
-### CLOB/BLOB 데이터 처리
+## CLOB/BLOB 데이터 처리
 - SELECT 문에서는 프로젝트 내의 Map에서 Byte[]형태로 자동 변경되었음._(어떤 방법인지 알아봐야겠다.)_
 - INSERT, UPDATE문에서는 JdbcType을 설정해주어야 한다.
 
