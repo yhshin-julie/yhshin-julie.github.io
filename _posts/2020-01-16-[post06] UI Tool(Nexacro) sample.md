@@ -5,16 +5,16 @@ categories: dev-nexacro
 published: false
 ---
 
-### Nexacro 환경 구성 
+# Nexacro 환경 구성 
 
-#### TypeDefinition/Services
+## TypeDefinition/Services
 - 업무별로 개발 디렉토리 명칭을 설정한다.
 - sbvcUrl : 서버 호출에 사용할 URL을 지정한다.
 
-#### App Information/AppVariables
+## App Information/AppVariables
 - 각 업무별 화면에서 공통적으로 사용할 global DataSet 및 global 변수를 설정한다. 
 
-#### 자주 사용하는 cmmnFunction (Nexacro 공통 라이브러리)
+## 자주 사용하는 cmmnFunction (Nexacro 공통 라이브러리)
 - comp.js : 콤포넌트와 관련되는 CommonFuntion 파일 
 - excel.js : 엑셀 import/export 와 관련되는 CommonFuntion 파일 
 - util.js : String, Dataset, Date 와 관련되는 CommonFuntion 파일 
@@ -23,9 +23,9 @@ published: false
 - popup.js : 팝업과 관련되는 CommonFuntion 파일 
 - transaction.js : 트랜잭션 처리와 관련되는 CommonFuntion 파일 
 
-### 개발 예제
+# 개발 예제
 
-#### Onload 이벤트 
+## Onload 이벤트 
 화면 로딩이 완료 된 후, 가장먼저 수행되는 Funtion.
 
 ```javascript
@@ -47,7 +47,7 @@ this.form_onload = funtion(obj:nexacro.Form, e:nexacro.LoadEventInfo)
 };
 ```
 
-#### Transaction 처리
+## Transaction 처리
 server의 서비스를 호출하는 작업 (Service Call이라고 명칭함.)
 
 ```javascript
