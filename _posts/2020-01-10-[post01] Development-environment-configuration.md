@@ -2,6 +2,7 @@
 title: "[post01] Development-environment-configuration"
 date: 2020-01-10 19:00:00 -0400
 categories: dev-info
+published: false
 ---
 
 ### 개발 환경 구성 (개인기록 용도)
