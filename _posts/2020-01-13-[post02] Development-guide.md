@@ -1,7 +1,7 @@
 ---
 title: "[post02] Development-guide"
 date: 2020-01-13 16:00:00 -0400
-categories: dev-info
+categories: dev-spring
 ---
 
 > 개인기록의 목적으로 작성된 게시물입니다.
