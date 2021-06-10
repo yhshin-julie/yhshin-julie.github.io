@@ -2,6 +2,7 @@
 title: "[post05] Mapper sample"
 date: 2020-01-15 16:00:00 -0400
 categories: dev-spring
+published: false
 ---
 
 ### SqlMap
