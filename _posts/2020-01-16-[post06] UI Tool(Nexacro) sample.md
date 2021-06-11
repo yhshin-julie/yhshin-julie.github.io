@@ -75,3 +75,8 @@ this.fnSelectList = function()
 - outData : 트랜잭션 결과값으로 받을 데이터셋 ID 
 - callBackFnc : 트랜잭션 결과를 받을 Funtion 명 (콜백함수)
 - isAsync : 비동기통신 여부(생략가능, 기본적으로 비동기통신) 
+
+
+    {% if page.comments != false %}
+	    {% include disqus_comments.html %}
+    {% endif %}  
