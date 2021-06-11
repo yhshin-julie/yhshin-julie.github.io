@@ -4,6 +4,8 @@ date: 2020-01-16 17:00:00 -0400
 categories: dev-nexacro
 toc: true
 toc_sticky: true
+layout: default
+comments: true
 ---
 
 # Nexacro 환경 구성 
